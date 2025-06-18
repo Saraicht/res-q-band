@@ -135,7 +135,7 @@ const DashboardPage = () => {
             <Filter className="w-4 h-4 text-gray-500" />
             <select
               value={statusFilter}
-              onChange={(e) => setStatusFilter(e.target.value as any)}
+              onChange={(e) => setStatusFilter(e.target.value as  "all" | "normal" | "warning" | "alert")}
               className="px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             >
               <option value="all">Todos los estados</option>
@@ -155,9 +155,7 @@ const DashboardPage = () => {
 
             {filteredUsers.length > 0 ? (
               <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
-                {filteredUsers.map((user) => (
-                  <UserCard key={user.id} user={user} content={message?.content} />
-                ))}
+                  <UserCard  user={filteredUsers[1]} content={message?.content} />
               </div>
             ) : (
               <Card>
