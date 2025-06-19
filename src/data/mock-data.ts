@@ -69,7 +69,7 @@ export const testimonials: Testimonial[] = [
     name: "Dr. Elena Vásquez",
     role: "Cardióloga",
     content:
-      "SARAI ha revolucionado el monitoreo de mis pacientes. Los datos en tiempo real me permiten tomar decisiones más informadas.",
+      "ResQBand ha revolucionado el monitoreo de mis pacientes. Los datos en tiempo real me permiten tomar decisiones más informadas.",
     avatar: "/assets/placeholder.svg?height=60&width=60",
     rating: 5,
   },
@@ -78,7 +78,7 @@ export const testimonials: Testimonial[] = [
     name: "Miguel Torres",
     role: "Paciente",
     content:
-      "Desde que uso SARAI, me siento más tranquilo. Las alertas me han ayudado a prevenir situaciones de riesgo.",
+      "Desde que uso ResQBand, me siento más tranquilo. Las alertas me han ayudado a prevenir situaciones de riesgo.",
     avatar: "/assets/placeholder.svg?height=60&width=60",
     rating: 5,
   },
@@ -87,7 +87,7 @@ export const testimonials: Testimonial[] = [
     name: "Carmen Ruiz",
     role: "Enfermera",
     content:
-      "La facilidad de uso y la precisión de los datos hacen de SARAI una herramienta indispensable en nuestro hospital.",
+      "La facilidad de uso y la precisión de los datos hacen de ResQBand una herramienta indispensable en nuestro hospital.",
     avatar: "/assets/placeholder.svg?height=60&width=60",
     rating: 5,
   },
